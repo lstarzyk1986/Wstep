@@ -1,10 +1,18 @@
 
 body {
+  background-color: pink;
 
 color: black;
 }
 h2
 { border-bottom-style: solid
 color: black 2px;}
+#intro{
+  color: green;
+}
 h4 {text-decoration: underline;}
 h5 {font-size: 30px;}
+table, caption, th, td {
+    border: 1px solid black;
+}
+caption {font-weight: bold; }
