@@ -3,14 +3,33 @@ body{
   color: blue;
 }
 p{ background-color: green; }
-p1, p2, p3, p4, p5 {color: brown;}
+p1, p2, p3, p4, p5 {color: brown;
+display: block;}
 #first-paragraph {
+  display: block;
   color: green;
   font-size: 12px;
 }
 #second-paragraph {
+  display: block;
   color: violet;
   font-size: 12px;
+}
+.div{width: 100px;
+  height: 50px;
+  border: 3px solid red;
+}
+.link{
+  color: red;
+border: 1px solid red;
+width: 500px;
+}
+p9{
+  display: block;
+  color: red;
+border: 1px solid red;
+width: 500px;
+
 }
 
 body {
@@ -26,7 +45,39 @@ color: black 2px;}
 }
 h4 {text-decoration: underline;}
 h5 {font-size: 30px;}
+
 table, caption, th, td {
+
     border: 1px solid black;
+    margin-top: 15px;
 }
+.box{display:inline;   color: black;
+border: 1px solid black;
+width: 100px;
+height: 100px;
+  }
+  #first-div{float:left;}
+  #second-div{float:right;}
+
+  .clearfix{ clear:both;}
+
+  p10, p11{width: 80px;
+    border: 2px dotted red;}
+    span{color:yellow;}
+    span1{color:blue;}
+
+  span2{color:orange;}
+  span3{color:black;}
+  span4{color:red;}
+
+p13{background-color: #666;}
+p14{background-color: rgb(255, 255, 255);  /* biały*/}
+p15{background-color: hsl(0, 100%, 25%)}
+
+.first{background-color:grey;
+width: 50%;}
+.second{background-color:yellow;
+width: 10em;}
+
+
 caption {font-weight: bold; }
